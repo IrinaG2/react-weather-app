@@ -1,7 +1,9 @@
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <div className="container">
+        <button className="btn btn-primary">Click</button>
+      </div>
     </div>
   );
 }

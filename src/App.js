@@ -1,8 +1,11 @@
+import React from "react";
+import Weather from "./Weather";
+
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <button className="btn btn-primary">Click</button>
+        <Weather />
       </div>
     </div>
   );

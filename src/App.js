@@ -6,7 +6,13 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="New York" />
-        <footer>Coded by Irina Gurianova </footer>
+        <footer>
+          Coded by{" "}
+          <a href="https://github.com/IrinaG2/react-weather-app">
+            {" "}
+            Irina Gurianova
+          </a>{" "}
+        </footer>
       </div>
     </div>
   );
